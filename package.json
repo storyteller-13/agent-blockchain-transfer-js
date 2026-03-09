@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-transfer-alert",
+  "version": "1.0.0",
+  "description": "Sends email via Resend when transfers are detected to watched Bitcoin and Ethereum addresses",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["blockchain", "bitcoin", "ethereum", "resend", "email", "alerts"],
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/kv": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "resend": "^4.0.0"
+  }
+}
